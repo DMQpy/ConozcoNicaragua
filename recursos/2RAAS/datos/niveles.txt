@@ -1,0 +1,74 @@
+# Configuración de niveles
+# Formato:
+# Prefijo indica una posible parte inicial de la pregunta
+# Sufijo indica una posible parte final de la pregunta
+# Cada nivel empieza con su nombre entre parentesis rectos
+# Variables:
+#  - dibujoInicial lista de cosas a dibujar en el mapa al inicio del nivel
+#     lineasDepto,capitales
+#  - nombreInicial lista de cosas a etiquetar en el mapa al inicio del nivel
+#     deptos,capitales
+# Cada pregunta es una linea que se inicia con Pregunta =
+# sigue el texto de la pregunta (lineas separadas con \)
+# sigue el tipo de respuesta y el ID de la respuesta correcta
+# finalmente el texto de ayuda si el estudiante se equivoca dos veces
+#  tipo de respuesta: 1 depto, 2 ciudad, 3 rio, 4 cuchilla, 5 cerro, 6 ruta
+#  ID de respuesta: string con el nombre
+#  texto de ayuda: string (lineas separadas con \)
+
+Prefijo = Tenemos que buscar\una pieza de mi nave en
+Prefijo = Hay una pieza\de mi nave en
+Prefijo = Según mi información\tenemos que buscar en
+Prefijo = Tenemos que\ir hasta
+Prefijo = Una pieza de mi\cohete cayó en
+
+Sufijo = ¿Podés señalar dónde es?
+Sufijo = ¿Dónde queda?
+Sufijo = ¿Vamos hasta ahí?
+Sufijo = ¿Me llevás?
+Sufijo = ¿Podés mostrarme dónde es?
+
+Correcto = ¡Muy bien!
+Correcto = ¡Genial!
+Correcto = ¡Lo encontraste!
+Correcto = ¡Sí!
+
+Mal = No, intentá de nuevo
+Mal = Acá no está
+Mal = Parece que no es acá
+Mal = Seguí probando...
+
+Despedida = Ahora puedo volver\a mi planeta.\¡Gracias por tu ayuda!
+Despedida = Mi nave está pronta.\¡Chau y gracias por ayudarme!
+Despedida = ¡Lo hicimos!\Estoy listo para despegar.\¡Hasta la próxima!
+
+[Límites de Municipios]
+dibujoInicial = lineasDepto
+nombreInicial = 
+Pregunta = El Municipio\de Desembocadura de Rio\Grande|1|DESEMBOCADURA DE RIO GRANDE|Dále, probá de nuevo
+Pregunta = El Municipio\de La Cruz de Río Grande|1|LA CRUZ DE RIO GRANDE|Dále, probá de nuevo
+Pregunta = El Municipio\de Paiwas|1|PAIWAS|Dále, probá de nuevo
+Pregunta = El Municipio\de El Rama|1|EL RAMA|Dále, probá de nuevo
+Pregunta = El Municipio\de Muelle de los Bueyes|1|MUELLE DE LOS BUEYES|Dále, probá de nuevo
+Pregunta = El Municipio\de Nueva Guinea|1|NUEVA GUINEA|Dále, probá de nuevo
+Pregunta = El Municipio\de Bluefields|1|BLUEFIELDS|Dále, probá de nuevo
+Pregunta = El Municipio\de KuKrahill|1|KUKRAHILL|Dále, probá de nuevo
+Pregunta = El Municipio\de Laguna de Perlas|1|LAGUNA DE PERLAS|Dále, probá de nuevo
+Pregunta = El Municipio\de El Tortuguero|1|EL TORTUGUERO|Dále, probá de nuevo
+Pregunta = El Municipio\de El Ayote|1|EL AYOTE|Dále, probá de nuevo
+
+[Cabeceras Municipales]
+dibujoInicial = capitales
+nombreInicial = 
+Pregunta = El Municipio\de Corn Island|2|CORN ISLAND|Dále, probá de nuevo
+Pregunta = El Municipio\de Karawala|2|KARAWALA|Dále, probá de nuevo
+Pregunta = El Municipio\de La Cruz de Río Grande|2|LA CRUZ DE RIO GRANDE|Dále, probá de nuevo
+Pregunta = El Municipio\de Bocana de Paiwas|2|BOCANA DE PAIWAS|Dále, probá de nuevo
+Pregunta = El Municipio\de El Rama|2|EL RAMA|Dále, probá de nuevo
+Pregunta = El Municipio\de Muelle de los Bueyes|2|MUELLE DE LOS BUEYES|Dále, probá de nuevo
+Pregunta = El Municipio\de Nueva Guinea|2|NUEVA GUINEA|Dále, probá de nuevo
+Pregunta = El Municipio\de Bluefields|2|BLUEFIELDS|Dále, probá de nuevo
+Pregunta = El Municipio\de KuKrahill|2|KUKRAHILL|Dále, probá de nuevo
+Pregunta = El Municipio\de Laguna de Perlas|2|El TORTUGUERO|Dále, probá de nuevo
+Pregunta = El Municipio\de El Tortuguero|2|LAGUNA DE PERLAS|Dále, probá de nuevo
+Pregunta = El Municipio\de El Ayote|2|EL AYOTE|Dále, probá de nuevo

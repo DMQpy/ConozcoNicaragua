@@ -1,0 +1,16 @@
+# Depto|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# departamentos
+WASPAN|255|580|160|0
+BONANZA|253|360|398|0
+SIUNA|251|306|458|0
+ROSITA|249|422|426|0
+PRINZAPOLKA|247|670|572|0
+PUERTO CABEZAS|245|740|354|0
+WASLALA|243|142|570|0
+# paises limitrofes
+Honduras|100|284|72|0
+Costa Rica|250|426|761|0
+# Oceanos
+Oceano Pácifico|140|98|642|0
+Oceano Atlantico|130|756|568|90
+# fin

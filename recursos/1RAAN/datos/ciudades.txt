@@ -1,0 +1,12 @@
+#Ciudad|posx|posy|tipo|textoxincremento|textoyincremento
+# tipo 1 = capital deptal, 2 = ciudad, 5 = cerro, 6 = punto de interes
+# capitales
+#WASPAN|580|160|1|0|0
+WASPAN|580|160|1|45|0
+BONANZA|360|398|1|45|0
+SIUNA|306|458|1|45|0
+ROSITA|422|426|1|45|0
+PRINZAPOLKA|670|572|1|45|0
+PUERTO CABEZAS|740|354|1|45|0
+WASLALA|144|596|1|45|0
+MULUKUKU|268|620|1|45|0

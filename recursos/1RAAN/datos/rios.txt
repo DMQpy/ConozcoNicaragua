@@ -1,0 +1,15 @@
+# Rio o curso de agua|codigo color (rojo)|ubic. texto x|y|rotacion nombre
+# rios
+RioCoco|255|382|094|0
+RioWawa|253|696|124|0
+RioKukalaya|250|666|204|0
+RioBambana|248|678|262|0
+RioPrinzapolka|246|540|284|0
+RioGrandeMatagalpa|244|526|344|0
+RioKurinwas|242|612|426|0
+RioEscondido|240|654|506|0
+RioSiguia|238|578|462|0
+RioMico|236|506|510|0
+RioSanJuan|234|616|708|0
+RioPuntaGorda|232|580|610|0
+## fin
